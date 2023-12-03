@@ -1,0 +1,49 @@
+﻿
+
+<section class="container">
+    <h2 class="my-4 d-flex justify-content-between align-items-center">
+        Danh sách môn học
+        <div style="margin-right: 4rem">
+            <a asp-controller="Home" asp-action="Index" class="btn btn-danger">Trang chủ</a>
+        </div>
+    </h2>
+
+    <div style="margin-top: 3rem; margin-bottom: 1rem; display: grid; grid-template-columns: repeat(4, 1fr); gap: 2rem 0; font-family: 'Roboto' ;">
+        <a asp-controller="MonHoc" asp-action="Mon" asp-route-monId="1" class="home-box">
+            <i class="fas fa-calculator" style="font-size: 50px; margin-bottom: 20px;"></i>
+            <h4>Toán</h4>
+        </a>
+        <a asp-controller="MonHoc" asp-action="Mon" asp-route-monId="2" class="home-box">
+            <i class="fas fa-font" style="font-size: 50px; margin-bottom: 20px;"></i>
+            <h4>Tiếng việt</h4>
+        </a>
+        <a asp-controller="MonHoc" asp-action="Mon" asp-route-monId="3" class="home-box">
+            <i class="fab fa-speakap" style="font-size: 50px; margin-bottom: 20px;"></i>
+            <h4>Anh văn</h4>
+        </a>
+        <a asp-controller="MonHoc" asp-action="Mon" asp-route-monId="4" class="home-box">
+            <i class="fas fa-music" style="font-size: 50px; margin-bottom: 20px;"></i>
+            <h4>Âm nhạc</h4>
+        </a>
+        <a asp-controller="MonHoc" asp-action="Mon" asp-route-monId="5" class="home-box">
+            <i class="fas fa-history" style="font-size: 50px; margin-bottom: 20px;"></i>
+            <h4>Lịch sử</h4>
+        </a>
+        <a asp-controller="MonHoc" asp-action="Mon" asp-route-monId="6" class="home-box">
+            <i class="fas fa-atlas" style="font-size: 50px; margin-bottom: 20px;"></i>
+            <h4>Địa lý</h4>
+        </a>
+        <a asp-controller="MonHoc" asp-action="Mon" asp-route-monId="7" class="home-box">
+            <i class="fas fa-running" style="font-size: 50px; margin-bottom: 20px;"></i>
+            <h4>Thể dục</h4>
+        </a>
+        <a asp-controller="MonHoc" asp-action="Mon" asp-route-monId="8" class="home-box">
+            <i class="fas fa-mobile-alt" style="font-size: 50px; margin-bottom: 20px;"></i>
+            <h4>Tin học</h4>
+        </a>
+
+    </div>
+   
+</section>
+
+

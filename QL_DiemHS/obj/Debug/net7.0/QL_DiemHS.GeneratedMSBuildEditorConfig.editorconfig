@@ -1,0 +1,85 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = QL_DiemHS
+build_property.RootNamespace = QL_DiemHS
+build_property.ProjectDir = C:\Users\84363\Desktop\Nam 3\QLDA_CNTT\QL_DiemHS\QL_DiemHS\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\84363\Desktop\Nam 3\QLDA_CNTT\QL_DiemHS\QL_DiemHS
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/HocSinh/Create_HocSinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jU2luaFxDcmVhdGVfSG9jU2luaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/HocSinh/Edit_HocSinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jU2luaFxFZGl0X0hvY1NpbmguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/HocSinh/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9jU2luaFxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/MonHoc/Add_Student.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uSG9jXEFkZF9TdHVkZW50LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/MonHoc/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uSG9jXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/MonHoc/Mon.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uSG9jXE1vbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/MonHoc/NhapDiem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9uSG9jXE5oYXBEaWVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/TongKet/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9uZ0tldFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/TongKet/Home.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVG9uZ0tldFxIb21lLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/84363/Desktop/Nam 3/QLDA_CNTT/QL_DiemHS/QL_DiemHS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-eddzox1mo2

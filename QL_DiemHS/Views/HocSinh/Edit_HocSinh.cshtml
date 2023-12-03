@@ -1,0 +1,14 @@
+﻿@model HocSinh
+<div style="display:flex; margin:50px auto">
+    <div class="container">
+        <h3 class="my-3 text-primary">Sửa thông tin học sinh</h3>
+        <form method="post">
+                <label asp-for="TenHS" class="my-1">Họ và tên học sinh </label>
+                <input asp-for="TenHS" type="text" class="form-control" />
+                <span asp-validation-for="TenHS" class="text-danger"></span>
+
+            <button type="submit" class="btn btn-primary mt-4">Sửa</button>
+            <a asp-action="Home" class="btn btn-danger mt-4">Cancel</a>
+        </form>
+    </div>
+</div>

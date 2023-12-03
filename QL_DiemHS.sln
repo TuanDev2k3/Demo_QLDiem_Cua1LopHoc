@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34018.315
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QL_DiemHS", "QL_DiemHS\QL_DiemHS.csproj", "{50BCA80D-481A-4350-BA08-DE0D8FD9A07D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{50BCA80D-481A-4350-BA08-DE0D8FD9A07D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50BCA80D-481A-4350-BA08-DE0D8FD9A07D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50BCA80D-481A-4350-BA08-DE0D8FD9A07D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50BCA80D-481A-4350-BA08-DE0D8FD9A07D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6DFC249-66CA-4FF1-958A-F607E534C443}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,45 @@
+﻿<section class="container">
+	<h4 class=" my-3 text-danger d-flex justify-content-between align-items-center">
+		Môn: @ViewBag.Mon.TenMon</br>
+		<span class="text-secondary">Mã môn: @ViewBag.Mon.MaMon</span>
+		<div style="margin-right: 1rem">
+			<a asp-action="Add_Student" asp-route-id="@ViewBag.Mon.MaMon" class="btn btn-success mx-3">Add</a>
+			<a asp-controller="MonHoc" asp-action="Index" class="btn btn-danger">Trang chủ</a>
+		</div>
+	</h4>
+
+	<table class="table">
+		<thead class="text-primary">
+			<th>STT</th>
+			<th>MaHS</th>
+			<th>TenHS</th>
+			<th>Diem 15p</th>
+			<th>Diem 1t</th>
+			<th>Diem GK</th>
+			<th>Diem CK</th>
+			<th>Diem TB</th>
+			<th></th><th></th>
+		</thead>
+
+		<tbody>
+			@{int i = 1;}
+			@foreach(var item in @ViewBag.DSHocSinh)
+			{
+				<tr>
+					<td>@i</td>
+					<td>@item.MaHS</td>
+					<td>@item.HocSinh.TenHS</td>
+					<td>@item.Diem15p</td>
+					<td>@item.Diem1t</td>
+					<td>@item.DiemGk</td>
+					<td>@item.DiemCk</td>
+					<td>@item.DiemTrungBinh</td>
+					<td></td>
+					<td><a asp-action="NhapDiem" asp-route-monId="@item.MaMon" asp-route-mahs="@item.MaHS" class="btn btn-outline-warning">Nhập điểm</a></td>
+					<td><a asp-action="Delete" asp-route-monId="@item.MaMon" asp-route-mahs="@item.MaHS"><i class='bx bx-trash text-dark' style="font-size: 25px"></i></a></td>
+				</tr>
+				i++;
+			}
+		</tbody>
+	</table>
+</section>

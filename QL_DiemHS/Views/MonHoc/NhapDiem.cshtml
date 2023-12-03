@@ -1,0 +1,35 @@
+﻿@model DiemSo
+
+<div style="display:flex; margin:50px auto">
+	<div class="container">
+        <h3 class="my-3 text-primary d-flex justify-content-between align-items-center">
+            Nhập (sửa) điểm học sinh
+            <div>
+                <span class="text-secondary" style="font-size: 18px; font-weight: 400">Mã hs: @Model.HocSinh.MaHS</span></br>
+                <span class="text-secondary" style="font-size: 18px; font-weight: 400">Họ và tên: @Model.HocSinh.TenHS</span>
+            </div>
+        </h3>
+        <form method="post">
+            <input asp-for="MaMon" type="hidden" class="form-control" />
+            <input asp-for="MaHS" type="hidden" class="form-control" />
+
+                <label asp-for="Diem15p">Điểm 15 phút:</label>
+                <input asp-for="Diem15p" type="text" class="form-control" />
+                <span asp-validation-for="Diem15p"></span>
+
+                <label asp-for="Diem1t">Điểm 1 tiết:</label>
+                <input asp-for="Diem1t" type="text" class="form-control" />
+                <span asp-validation-for="Diem1t"></span>
+            
+                <label asp-for="DiemGk">Điểm giữa kì:</label>
+                <input asp-for="DiemGk" type="text" class="form-control" />
+                <span asp-validation-for="DiemGk"></span>
+
+                <label asp-for="DiemCk">Điểm cuối kì:</label>
+                <input asp-for="DiemCk" type="text" class="form-control" />
+                <span asp-validation-for="DiemCk"></span>
+
+            <button type="submit" class="btn btn-success mt-4">Cập Nhật Điểm</button>
+        </form>
+	</div>
+</div>

@@ -1,0 +1,18 @@
+﻿@model DiemSo
+<div style="display:flex; margin: 100px auto;">
+    <div class=" container">
+        <h2 class="text-success mb-3">Thêm Học Sinh</h2>
+        <form method="post">
+            <label asp-for="MaHS">Mã học sinh</label>
+            <input asp-for="MaHS" type="text" class="form-control" />
+            <span asp-validation-for="MaHS" class="text-danger"> </span>
+
+            <label asp-for="MaMon">Mã môn học</label>
+            <input asp-for="MaMon" type="text" class="form-control" value="@ViewBag.Id"/>
+            <span asp-validation-for="MaMon" class="text-danger"> </span>
+
+            <button type="submit" class="btn btn-primary mt-4">Thêm vào</button>
+            <a asp-action="Mon" asp-route-monId="@ViewBag.Id" class="btn btn-danger mt-4">Cancel</a>
+        </form>
+    </div>
+</div>

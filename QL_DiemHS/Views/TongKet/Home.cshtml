@@ -1,0 +1,38 @@
+﻿<section class="container mt-5">
+	<h2 class="my-4 d-flex justify-content-between align-items-center">
+		Danh sách học sinh
+		<div>
+			<a asp-controller="Home" asp-action="Index" class="btn btn-danger mx-5 mt-3">Trang chủ</a>
+		</div>
+	</h2>
+
+	<table class="table">
+		<thead>
+		<th>STT</th>
+		<th>Mã học sinh</th>
+		<th>Họ và tên</th>
+		<th></th>
+		</thead>
+
+		@model IEnumerable<HocSinh>
+		<tbody>
+			@{
+				int i = 1;
+			}
+			@foreach (var item in @Model)
+			{
+				<tr>
+					<td width="10%">@i</td>
+					<td width="20%">@item.MaHS</td>
+					<td width="40%">@item.TenHS</td>
+					<td>
+						<a asp-action="Details" asp-route-mahs="@item.MaHS" class="btn btn-outline-success mx-2">Xem kết quả</a>
+					</td>
+				</tr>
+
+				i++;
+			}
+		</tbody>
+	</table>
+</section>
+
